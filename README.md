@@ -18,4 +18,8 @@ Lint
 docker-compose run --rm app sh -c "flake8"
 ```
 
-test
+Run Tests
+
+```
+docker-compose run app sh -c "python manage.py test"
+```
